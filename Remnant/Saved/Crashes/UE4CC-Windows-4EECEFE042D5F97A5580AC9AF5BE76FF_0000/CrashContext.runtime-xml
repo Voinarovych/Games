@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>6E6CD7104D6E4387DFD0C4B773DE3A34</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-4EECEFE042D5F97A5580AC9AF5BE76FF_0000</CrashGUID>
+		<ProcessId>12652</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<SecondsSinceStart>11330</SecondsSinceStart>
+		<GameName>UE4-Remnant</GameName>
+		<ExecutableName>Remnant-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**unreal*4.22*UE4-Gunfire-CL-275466-Win64-Shipping</Symbols>
+		<PlatformName>WindowsNoEditor</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName>b4a0d2d15acb4db894a599b810297543</DeploymentName>
+		<EngineVersion>4.22.3-275466+++unreal+4.22+UE4-Gunfire</EngineVersion>
+		<CommandLine>-AUTH_LOGIN=unused -AUTH_PASSWORD=2abeded2428e42b786b071f6413e5ab8 -AUTH_TYPE=exchangecode -epicapp=b4a0d2d15acb4db894a599b810297543 -epicenv=Prod -EpicPortal -epicusername=TheFireks -epicuserid=ca16d49b1e6f4084a3365f0fa8931e3a -epiclocale=en -epicsandboxid=663e521f2a444199be58152fd93fa66e</CommandLine>
+		<LanguageLCID>1058</LanguageLCID>
+		<AppDefaultLocale>uk-UA</AppDefaultLocale>
+		<BuildVersion>++unreal+4.22+UE4-Gunfire-CL-275466</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>voyna</UserName>
+		<BaseDir>D:/RemnantFromTheAshes/Remnant/Binaries/Win64/</BaseDir>
+		<RootDir>D:/RemnantFromTheAshes/</RootDir>
+		<MachineId>00C7546F4FD9CC5F8C4392B5948014F3</MachineId>
+		<LoginId>00c7546f4fd9cc5f8c4392b5948014f3</LoginId>
+		<EpicAccountId>ca16d49b1e6f4084a3365f0fa8931e3a</EpicAccountId>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>Remnant_Win64_Shipping!FD3D11TextureBase::~FD3D11TextureBase() [c:\ue4_tc\engine\source\runtime\windows\d3d11rhi\public\d3d11resources.h:239]
+Remnant_Win64_Shipping!TD3D11Texture2D&lt;FD3D11BaseTexture2D&gt;::`scalar deleting destructor&apos;()
+Remnant_Win64_Shipping!FRHIResource::FlushPendingDeletes() [c:\ue4_tc\engine\source\runtime\rhi\private\rhi.cpp:318]
+Remnant_Win64_Shipping!FD3D11DynamicRHI::CleanupD3DDevice() [c:\ue4_tc\engine\source\runtime\windows\d3d11rhi\private\d3d11device.cpp:545]
+Remnant_Win64_Shipping!FD3D11DynamicRHI::Shutdown() [c:\ue4_tc\engine\source\runtime\windows\d3d11rhi\private\d3d11device.cpp:262]
+Remnant_Win64_Shipping!RHIExit() [c:\ue4_tc\engine\source\runtime\rhi\private\dynamicrhi.cpp:266]
+Remnant_Win64_Shipping!FEngineLoop::Exit() [c:\ue4_tc\engine\source\runtime\launch\private\launchengineloop.cpp:3470]
+Remnant_Win64_Shipping!GuardedMain() [c:\ue4_tc\engine\source\runtime\launch\private\launch.cpp:179]
+Remnant_Win64_Shipping!GuardedMainWrapper() [c:\ue4_tc\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+Remnant_Win64_Shipping!WinMain() [c:\ue4_tc\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+Remnant_Win64_Shipping!__scrt_common_main_seh() [d:\agent\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+kernel32
+ntdll</CallStack>
+		<PCallStack>Remnant-Win64-Shipping 0x0000000032e30000 + de5530 Remnant-Win64-Shipping 0x0000000032e30000 + de5d00 Remnant-Win64-Shipping 0x0000000032e30000 + 1328e13 Remnant-Win64-Shipping 0x0000000032e30000 + de7f05 Remnant-Win64-Shipping 0x0000000032e30000 + e04b02 Remnant-Win64-Shipping 0x0000000032e30000 + 1333539 Remnant-Win64-Shipping 0x0000000032e30000 + 261042 Remnant-Win64-Shipping 0x0000000032e30000 + 261688 Remnant-Win64-Shipping 0x0000000032e30000 + 2616ca Remnant-Win64-Shipping 0x0000000032e30000 + 26a6e9 Remnant-Win64-Shipping 0x0000000032e30000 + 24db302 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</PCallStack>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Unhandled exception</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i3-12100F</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GT 1030</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 8</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName>GameState</GameStateName>
+		<MemoryStats.TotalPhysical>16984227840</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a0ba5a Remnant-Win64-Shipping 0x0000000032e30000 + 24f124e VCRUNTIME140 0x000000006c7f0000 + f70f ntdll 0x000000008df70000 + a441f</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>3568</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10892</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3548</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14300</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4156</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1092</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15824</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13836</ThreadID>
+				<ThreadName>TaskGraphThreadHP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18528</ThreadID>
+				<ThreadName>TaskGraphThreadHP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12360</ThreadID>
+				<ThreadName>TaskGraphThreadHP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3124</ThreadID>
+				<ThreadName>TaskGraphThreadHP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17264</ThreadID>
+				<ThreadName>TaskGraphThreadHP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14112</ThreadID>
+				<ThreadName>TaskGraphThreadHP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13232</ThreadID>
+				<ThreadName>TaskGraphThreadBP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16484</ThreadID>
+				<ThreadName>TaskGraphThreadBP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18324</ThreadID>
+				<ThreadName>TaskGraphThreadBP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6876</ThreadID>
+				<ThreadName>TaskGraphThreadBP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8840</ThreadID>
+				<ThreadName>TaskGraphThreadBP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 8fb629 Remnant-Win64-Shipping 0x0000000032e30000 + 8fd94c Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12480</ThreadID>
+				<ThreadName>TaskGraphThreadBP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10052</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14328</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4044</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1544</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17580</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8636</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12632</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13660</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f9f4 ntdll 0x000000008df70000 + 551b3 KERNELBASE 0x000000008b450000 + 4506d Remnant-Win64-Shipping 0x0000000032e30000 + 11df330 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11236</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 2c5c56 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13992</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 16619dc Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12604</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19628</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11548</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17664</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17916</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11460</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3136</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + a60cd5 Remnant-Win64-Shipping 0x0000000032e30000 + a5cb4a Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2148</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 938611 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17388</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 938611 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1976</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 938611 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4532</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 938611 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16568</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 938611 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7860</ThreadID>
+				<ThreadName>PoolThread 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x000000008df70000 + 9f3f4 KERNELBASE 0x000000008b450000 + 344ee Remnant-Win64-Shipping 0x0000000032e30000 + a165f0 Remnant-Win64-Shipping 0x0000000032e30000 + 938611 Remnant-Win64-Shipping 0x0000000032e30000 + a1551b Remnant-Win64-Shipping 0x0000000032e30000 + a12be7 KERNEL32 0x000000008be70000 + 1257d ntdll 0x000000008df70000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1916</ThreadID>
+				<ThreadName>PoolThread 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17876</ThreadID>
+				<ThreadName />
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10072</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15708</ThreadID>
+				<ThreadName />
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5312</ThreadID>
+				<ThreadName>P</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638415352440310000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 8  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+D:\RemnantFromTheAshes\Remnant\Binaries\Win64\Remnant-Win64-Shipping.exe
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Legacy_x64.dll
+D:\RemnantFromTheAshes\Remnant\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_Clothing_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Common_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEXFramework_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\Steamworks\Steamv139\Win64\steam_api64.dll
+D:\RemnantFromTheAshes\Remnant\Binaries\Win64\EpicFix64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\NvCloth_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3Cooking_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxPvdSDK_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxFoundation_x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+D:\RemnantFromTheAshes\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+D:\RemnantFromTheAshes\Remnant\Binaries\Win64\winmm.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce GT 1030</RHI.AdapterName>
+		<RHI.UserDriverVersion>546.65</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.4665</RHI.InternalDriverVersion>
+		<RHI.DriverDate>1-12-2024</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<Gunfire.BuildNumber>275957</Gunfire.BuildNumber>
+	</EngineData>
+</FGenericCrashContext>
